@@ -4,8 +4,8 @@ videojs.registerPlugin('browserErr', function() {
   myPlayer.errors({
         "errors": {
           "BROWSER_ERR": {
-            "headline": "Your Browser is not supported",
-            "message": "IE 不支援, please change the browser that you are using."
+            "headline": "不支援您使用的瀏覽器",
+            "message": "本站不支援IE ,請使用其他瀏覽器"
           }
          }
   });
