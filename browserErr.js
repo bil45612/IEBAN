@@ -5,9 +5,9 @@ videojs.registerPlugin('browserErr', function() {
         "errors": {
           "BROWSER_ERR": {
             "headline": "Your Browser is not supported",
-            "message": "IE is not a supported browser, please change the browser that you are using.", 
-            dismiss: false
+            "message": "IE is not a supported browser, please change the browser that you are using."
           }
+         dismiss: false
         }
   });
   myPlayer.on("loadstart", function () {
