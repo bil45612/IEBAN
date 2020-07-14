@@ -7,8 +7,8 @@ videojs.registerPlugin('browserErr', function() {
             "headline": "Your Browser is not supported",
             "message": "IE is not a supported browser, please change the browser that you are using."
           }
-         dismiss: false
-        }
+         }
+    dismiss: false
   });
   myPlayer.on("loadstart", function () {
      if (videojs.Hls && window.navigator.userAgent.indexOf("Trident") > 0) {
